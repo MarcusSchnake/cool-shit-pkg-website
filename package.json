@@ -1,0 +1,19 @@
+{
+  "name": "cool-shit-pkg-website",
+  "version": "1.0.0",
+  "description": "website cool-shit-pkg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcusSchnake/cool-shit-pkg-website.git"
+  },
+  "author": "Marcus \"the Mighty\" Schnake & Arron \"the Dragon\" Krueger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcusSchnake/cool-shit-pkg-website/issues"
+  },
+  "homepage": "https://github.com/MarcusSchnake/cool-shit-pkg-website#readme"
+}
