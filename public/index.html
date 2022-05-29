@@ -1,48 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
-</head>
+  </head>
+  <h1>Robert De Niro Ipsum</h1>
 
-<body>
-    <h1>Robert De Niro Ipsum</h1>
-    <br>
+  <body>
+    <br />
     <h3>Always keep your mouth shut and be an earner:</h3>
-    <br>
-    <p></p>
+    <br />
+    <br />
     <form>
-        <label>How many you need?</label>
-        <input type="number" id="numberParagraphs"class="" min="1" step="1" value="1" width="1">
-        <br>
+      <label>How many ya need?</label>
+      <input
+        type="number"
+        id="numberParagraphs"
+        class=""
+        min="1"
+        step="1"
+        value="1"
+      />
+      <br />
+      <br />
+      <div class="form">
         <label>You needin a header</label>
-        <div class="form">
-            <select class="form" type="form" id="header" step="" value="0">
-                <option>none</option>
-                <option>h1</option>
-                <option>h2</option>
-                <option>h3</option>
-                <option>h4</option>
-                <option>h5</option>
-                <option>h6</option>
-            </select>
-        </div>
-            
-        <br>
-        <label></label>
-        <input type="text" id="">
-        <br>
-        <label>Here is your stinking quotes ya animal</label>
-        <input type="number" id="">
-        <br>
-        <button type="submit" value="submit" onclick="return false" > Generate text</button>
-        <button type="submit" value="submit" onclick="return false" > Clean it up</button>
-
+        <select class="form" type="form" id="headerInsert" step="" value="0">
+          <option>none</option>
+          <option>h1</option>
+          <option>h2</option>
+          <option>h3</option>
+          <option>h4</option>
+          <option>h5</option>
+          <option>h6</option>
+        </select>
+      </div>
+      <br />
+      <label>Get me a P tag over here</label>
+      <input type="checkbox" id="pTag" onclick="" />
+      <br />
+      <br />
+      <div class="wrapperDiv">
+        Naughty:
+        <label class="switch">
+          <input type="checkbox" checked />
+          <span class="slider round"></span>
+        </label>
+        :Nice
+      </div>
+      <button
+        type="submit"
+        id="submitButton"
+        value="submit"
+        onclick="return false"
+      >
+        Generate text
+      </button>
+      <button
+        type="submit"
+        id="clearButton"
+        value="submit"
+        onclick="return false"
+      >
+        Clean it up
+      </button>
+      <br />
+      <textarea type="text" id="quoteBox">
+      </textarea>
     </form>
 
+    <footer>
+      <div>The End of the De Niro</div>
+    </footer>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
 
-<script type="text/javascript" src="./index.js"></script>
-</body>
 </html>
