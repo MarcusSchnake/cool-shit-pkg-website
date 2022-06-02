@@ -2,9 +2,11 @@
   "name": "cool-shit-pkg-website",
   "version": "1.0.0",
   "description": "website cool-shit-pkg",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/MarcusSchnake/cool-shit-pkg-website/issues"
   },
-  "homepage": "https://github.com/MarcusSchnake/cool-shit-pkg-website#readme"
+  "homepage": "https://github.com/MarcusSchnake/cool-shit-pkg-website#readme",
+  "dependencies": {
+    "cool-shit-pkg": "^1.1.7"
+  }
 }
