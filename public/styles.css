@@ -1,6 +1,7 @@
 h1 {
+  position: static;
   text-align: center;
- 
+  color: chartreuse;
 }
 
 body {
@@ -8,26 +9,30 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   background: url("../assets/casino45red-main.jpeg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
 }
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
   min-height: 10%;
-  flex-direction: column;
   text-align: center;
   background-color: crimson;
 }
 
 #quoteBox {
+  flex-shrink: initial;
   min-height: 30vh;
   width: 80vw;
 }
 #submitButton {
-  border-radius: 10%;
+  /**/
+  border-radius:10px;
 }
 #clearButton {
-  border-radius: 10%;
+  border-radius: 10px;
 }
 .switch {
   position: relative;
@@ -49,7 +54,7 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color:crimson;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
