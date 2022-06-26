@@ -10,6 +10,7 @@ body {
   flex-wrap: wrap;
   background: url("../assets/casino45red-main.jpeg");
   background-repeat: no-repeat;
+  background-blend-mode:luminosity;
   background-position-x: center;
   background-position-y: center;
 }
@@ -26,6 +27,7 @@ footer {
   flex-shrink: initial;
   min-height: 30vh;
   width: 80vw;
+  opacity: 40%;
 }
 #submitButton {
   /**/
